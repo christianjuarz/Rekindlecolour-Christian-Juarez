@@ -17,7 +17,7 @@
        ="stylesheet">
    
        <!--CSS-->
-       <link rel="stylesheet" href="../css/style.css">
+       <link rel="stylesheet" href="../css/main.css">
        <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
@@ -39,21 +39,43 @@
         </section>
         </header>
     <article>
-        <div>
-            <h2 class="texto_contenido">Estamos para ayudarte</h2>
-            <h1 class="texto_titulos">Consultá sobre los servicios que brindamos</h1>
+        <div class="banner_inicio_m">
+            <h1 class="texto_principal">Consultá sobre los servicios que brindamos</h1>
+            <h2 class="texto_secundario">Estamos para ayudarte</h2>
         </div>
     </article>
-    <section>
-        <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="servicios_tarjetas">  <!-- Seccion tarjetas -->
+    <section> <!--Tarjeta 1-->
+        <div class="card_instagram" style="width: 18rem;">
+                <img src="../assets/logo_ig.png" class="card-img-top" alt="logo Instagram">
+            <div class="card-body">
+            <h5 class="card-title">Instagram</h5>
+            <p class="card-text"> Seguinos y mandanos tu foto a traves de mensajes directos desde Instagram.</p>
+          <a href="http://www.instagram.com/rekindlecolour" class="btn btn-primary">Seguinos</a>
+        </div>
+      </div>
+    </section>
+    <section> <!--Tarjeta 2-->
+        <div class="card_whatsapp" style="width: 18rem;">
+        <img src="../assets/logo_wp.png" class="card-img-top" alt="logo whatsapp">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Whatsapp</h5>
+          <p class="card-text">Escribinos a nuestro Whatsapp y envianos tu recuerdo con mayor comodidád.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </section>
+    <section> <!--Tarjeta 3-->
+        <div class="card_email" style="width: 18rem;">
+        <img src="../assets/logo_em.png" class="card-img-top" alt="logo email">
+        <div class="card-body">
+          <h5 class="card-title">Email</h5>
+          <p class="card-text">Podes comunicarte a traves de nuestro mail aquí.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+</div>
 
     <footer class="footer"> <!--Footer-->
         <section> <!-- Texto Footer-->

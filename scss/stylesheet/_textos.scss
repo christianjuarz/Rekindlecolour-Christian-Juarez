@@ -1,0 +1,81 @@
+$textos-s:18px; 
+$textos-l:30px; 
+
+/* Seccion texto principal */
+.introduccion{
+    display: flex ; justify-content: center;
+    flex-direction: column;
+    background-color: rgb(229, 229, 229);
+    padding: 150px 0px;
+}
+
+.texto_principal{
+    display: flex; text-align: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:$textos-l;
+    margin: 0px 40px; padding: 30px 0px;
+}
+
+.texto_secundario{
+    display: flex; text-align: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: $textos-s;
+    margin: 0px 40px; padding: 30px 0px;
+}
+
+.mision{
+    display: flex ; justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 150px 0px;
+}
+
+.texto_principal_blanco{
+    display: flex; text-align: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:$textos-l;
+    color: white;
+    margin: 0px 40px; padding: 30px 0px;
+}
+
+.texto_secundario_blanco{
+    display: flex; text-align: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: $textos-s;
+    color: white;
+    margin: 0px 40px; padding: 30px 0px;
+}
+
+
+.texto_titulos {
+    display: flex; text-align: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:$textos-l;
+    color: rgb(0, 0, 0);
+    margin: 0px 40px; padding: 30px 0px;
+}
+
+.texto_contenido{
+    display: flex; text-align: start;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: $textos-s;
+    margin: 0px 40px; padding: 30px 0px;
+}

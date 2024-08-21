@@ -1,0 +1,45 @@
+/* Seccion footer*/
+.footer {
+    display: flex; flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:3fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    background-color: #000000; width: 100%;
+}
+.texto_footer {
+    display: flex; text-align: start;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    margin: 30px 30px;
+}
+
+.texto_footer p {
+     margin: 0px
+}
+.redes_sociales {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.texto_redes_sociales p a{
+    display: flex;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(201, 201, 201);
+    size: 15px;
+    padding: 0px 15px;
+}
+.logo_footer {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

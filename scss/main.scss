@@ -1,0 +1,14 @@
+/* Header */
+body {
+    margin: 0;
+}
+    //Orden del archivo
+    /*Cabecera*/
+    @import "./stylesheet/cabecera" ;
+     /*inicio*/
+    @import "./stylesheet/textos";
+    @import "./stylesheet/banners";
+    @import "./stylesheet/tarjetas";
+    /*Pie de pagina*/
+    @import "./stylesheet/pie-de-pagina"
+
