@@ -1,7 +1,8 @@
 
-@mixin tarjetas ($color_fondo,$margin){
+@mixin tarjetas ($color_fondo,$margin,$padding){
     background-color: $color_fondo;
     margin:$margin;
+    padding:$padding;
 }
 
 /*Tarjetas*/
@@ -11,7 +12,7 @@
 }
 
 .card{
-    @include tarjetas(rgb(1, 1, 1),10px )
+    @include tarjetas(rgb(1, 1, 1),10px,0 )
 }
 .card-body {
     display: flex; justify-content: center;
@@ -34,24 +35,35 @@
 }
 
 .card_instagram{
-    @include tarjetas(rgb(227, 70, 207),10px );
+    @include tarjetas(rgb(218, 101, 224),10px,10px );
     border-radius: 5%;
         & img {
-            display: flex; justify-content: center;
             height: 30px; width: 30px;
         }
        }
 
 .card_whatsapp{
-    @include tarjetas(rgb(90, 208, 69),10px );
+    @include tarjetas(rgb(90, 208, 69),10px,10px);
     & img {
-        display: flex; justify-content: center;
-        height:30px; width: 30px;}
+        height: 30px; width: 30px;
+    }
+
 }
 .card_email{
-    @include tarjetas(rgb(94, 89, 253),10px );
+    @include tarjetas(rgb(94, 89, 253),10px, 10px);
     & img {
-        display: flex; justify-content: center;
         height: 30px; width: 30px;
+    }
+
 }
+
+.imagen_iconos{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    }
+
+.galeria_pagina div{
+    display: flex; justify-content: center;
+    flex-wrap: wrap;
 }

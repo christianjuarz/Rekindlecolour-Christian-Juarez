@@ -58,24 +58,7 @@ $textos-l:30px;
     margin: 0px 40px; padding: 30px 0px;
 }
 
-
-.texto_titulos {
-    display: flex; text-align: center;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size:$textos-l;
-    color: rgb(0, 0, 0);
-    margin: 0px 40px; padding: 30px 0px;
+.texto_galeria{
+    background-color: rgb(236, 236, 236);
 }
 
-.texto_contenido{
-    display: flex; text-align: start;
-    flex-direction: column;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: $textos-s;
-    margin: 0px 40px; padding: 30px 0px;
-}

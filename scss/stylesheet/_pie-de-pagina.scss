@@ -8,6 +8,11 @@
     gap: 10px;
     background-color: #000000; width: 100%;
 }
+
+.seccion_texto_footer{
+    background-color: rgb(74, 74, 74);
+    margin: 0px; padding: 20px;
+}
 .texto_footer {
     display: flex; text-align: start;
     flex-direction: column;
@@ -15,7 +20,7 @@
     font-weight: 300;
     font-style: normal;
     font-size: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 30px 30px;
 }
 

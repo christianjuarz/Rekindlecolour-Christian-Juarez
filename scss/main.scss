@@ -10,5 +10,8 @@ body {
     @import "./stylesheet/banners";
     @import "./stylesheet/tarjetas";
     /*Pie de pagina*/
-    @import "./stylesheet/pie-de-pagina"
+    @import "./stylesheet/pie-de-pagina";
+
+    @import "./stylesheet/mediaquerye.scss";
+
 
